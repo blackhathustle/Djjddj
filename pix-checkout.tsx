@@ -10,7 +10,7 @@ export default function PixCheckout() {
   const [copied, setCopied] = useState(false)
   const [timeLeft, setTimeLeft] = useState(300) // 5 minutes in seconds
 
-  const pixCode = "00020101021226830014br.gov.bcb.pix2..."
+  const pixCode = "00020126500014BR.GOV.BCB.PIX0128erickgabrieldpi611@gmail.com5204000053039865406117.005802BR5905Erick6009Sao Paulo62120508Ingresso6304866D"
 
   useEffect(() => {
     if (timeLeft > 0) {
